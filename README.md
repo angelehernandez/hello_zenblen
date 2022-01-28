@@ -1,5 +1,4 @@
-
-# zenblen
+# hello_zenblen
 Android application that sends a bluetooth command containing the string “Hello Zenblen!” when a UI button is pressed.
 
 ## Getting Started
