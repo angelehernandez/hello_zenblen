@@ -18,6 +18,7 @@ The codebase lies in my [Github repo](https://github.com/angelehernandez/hello_z
 -   `hello_zenblen/build/app/outputs/apk/release/app-armeabi-v7a-release.apk`
 -   `hello_zenblen/build/app/outputs/apk/release/app-arm64-v8a-release.apk`
 -   `hello_zenblen/build/app/outputs/apk/release/app-x86_64-release.apk`.
+
 These are to be installed on an Android device via command line:
 	1. Connect the device via USB port.
 	2. Navigate to project `cd [project]`
