@@ -13,6 +13,7 @@ The codebase lies in my [Github repo](https://github.com/angelehernandez/hello_z
 
 ### Deliverable Questions
 **1. Briefly describe how you would deploy an Android application.**
+
 [Here](https://docs.flutter.dev/deployment/android) is the documentation to deploy an application to an Android device. Following this documentation, I have three APK files:
 -   `hello_zenblen/build/app/outputs/apk/release/app-armeabi-v7a-release.apk`
 -   `hello_zenblen/build/app/outputs/apk/release/app-arm64-v8a-release.apk`
@@ -23,7 +24,9 @@ These are to be installed on an Android device via command line:
 	3. Run `flutter install`.
 
 **2. Will the application you wrote work with iOS? If not, why?**
+
 As of now, the code can be emulated on an iOS device. 
 
 **3. In this exercise, the goal is to send a bluetooth command. After the command is sent, we may expect the controller to send the host a confirmation and success flag. How would you go about monitoring and receiving the confirmation and success flag?**
+
 These actions seem to be supported by the Flutter plugins mentioned in the [Flutter section](#Flutter). Utilizing `await` operators, a persistent connection is theoretically guaranteed. 
